@@ -14,15 +14,11 @@ if (number_a>=number_b && number_a>=number_c)
 {
 Console.WriteLine($"Максимальное число = {number_a}");
 }
-if (number_b>=number_a && number_b>=number_c)
+else if (number_b>=number_a && number_b>=number_c)
 {
 Console.WriteLine($"Максимальное число = {number_b}");
 }
-if (number_c>=number_b && number_c>=number_a)
+else if (number_c>=number_b && number_c>=number_a)
 {
 Console.WriteLine($"Максимальное число = {number_c}");
-}
-if (number_a==number_b && number_a==number_c)
-{
-Console.WriteLine($"Числа равны");
 }
